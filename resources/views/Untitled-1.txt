@@ -1,0 +1,3 @@
+php artisan make:migration create_employees_table
+php artisan migrate
+php artisan make:controller Api/EmployeeController --resource --model=Employee
